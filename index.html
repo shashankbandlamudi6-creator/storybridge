@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101014">
+<meta name="description" content="StoryBridge connects writers and storytellers with producers and studios.">
+<title>StoryBridge — Connecting Stories to Screens</title>
+<style>
+:root{color-scheme:dark;--bg:#101014;--panel:#19191f;--muted:#aaa7b1;--text:#f7f4f0;--gold:#d8b36a;--line:#303039}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}header{border-bottom:1px solid var(--line);background:#101014ef;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:800;font-size:1.2rem}.brand span{color:var(--gold)}.links{display:flex;gap:26px;color:#d4d0d8;font-size:.94rem}.links a:hover{color:var(--gold)}
+.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;background:var(--gold);color:#17130c;font-weight:750;border:1px solid var(--gold)}.button.secondary{background:transparent;color:var(--text);border-color:#55515a}
+.hero{padding:92px 0 78px;background:radial-gradient(ellipse at 75% 20%,#6d512322,transparent 38%),linear-gradient(135deg,#17171d,#101014 65%)}
+.eyebrow{color:var(--gold);font-size:.78rem;letter-spacing:.19em;text-transform:uppercase;font-weight:800}h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:1.04;letter-spacing:-.055em;max-width:850px;margin:18px 0 22px}h1 em{font-style:normal;color:var(--gold)}
+.lead{max-width:650px;color:#c2bec7;font-size:1.12rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.note{margin-top:22px;color:#888590;font-size:.86rem}
+section{padding:76px 0}.section-head{max-width:680px;margin-bottom:30px}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 12px;letter-spacing:-.035em}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile,.story{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}.tile .symbol{font-size:1.5rem;color:var(--gold)}.tile h3,.story h3{margin:12px 0 6px}.tile p,.story p{color:var(--muted);margin:0}
+.story{min-height:220px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(145deg,#24232b,#17171c)}.tag{display:inline-block;border:1px solid #514633;color:#e5c783;border-radius:999px;padding:4px 10px;font-size:.75rem;margin:0 6px 8px 0}.story h3{font-size:1.25rem}.story .meta{margin-top:18px}.story small{color:#aaa7b1}
+.band{background:#19181d;border-block:1px solid var(--line)}.band-inner{display:flex;align-items:center;justify-content:space-between;gap:28px}.band h2{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:8px 0}.band p{color:var(--muted);max-width:620px}
+footer{padding:30px 0;border-top:1px solid var(--line);color:#8f8b96;font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:760px){.links{display:none}.hero{padding:70px 0 60px}.grid{grid-template-columns:1fr}.band-inner{display:block}.band-inner .button{margin-top:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#home">Story<span>Bridge</span></a><nav class="links"><a href="#explore">Explore stories</a><a href="#how">How it works</a><a href="#writers">For writers</a><a href="#producers">For producers</a></nav><a class="button" href="#join">Get started</a></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap"><div class="eyebrow">A home for stories with a future</div><h1>Every great screen story starts <em>somewhere.</em></h1><p class="lead">StoryBridge brings writers and storytellers closer to producers and studios. Discover original ideas, explore creative worlds and find the right story for your next production.</p><div class="actions"><a class="button" href="#explore">Explore stories</a><a class="button secondary" href="#writers">I'm a writer</a></div><p class="note">Connecting Stories to Screens.</p></div></section>
+<section id="explore"><div class="wrap"><div class="section-head"><div class="eyebrow">Discover something original</div><h2>Stories for every kind of screen.</h2><p>From feature films and series to anime and animation, StoryBridge makes story discovery simple.</p></div><div class="grid">
+<article class="story"><div><span class="tag">Fantasy</span><span class="tag">Animation</span><h3>Worlds waiting to be discovered</h3><p>Explore imaginative concepts, unforgettable characters and new universes.</p></div><div class="meta"><small>Illustrative category · Sample preview</small></div></article>
+<article class="story"><div><span class="tag">Thriller</span><span class="tag">Series</span><h3>Stories that keep you watching</h3><p>Find mysteries, suspense and compelling stories built for episodic storytelling.</p></div><div class="meta"><small>Illustrative category · Sample preview</small></div></article>
+<article class="story"><div><span class="tag">Drama</span><span class="tag">Feature film</span><h3>Human stories that stay with you</h3><p>Discover emotional journeys, family stories and fresh perspectives.</p></div><div class="meta"><small>Illustrative category · Sample preview</small></div></article>
+</div></div></section>
+<section class="band" id="how"><div class="wrap band-inner"><div><div class="eyebrow">Simple by design</div><h2>Discover freely. Connect with permission.</h2><p>Producers can browse public story previews. Contact details stay private and are shared only after a writer approves a request.</p></div><a class="button secondary" href="#producers">See how it works</a></div></section>
+<section id="writers"><div class="wrap grid"><div class="section-head"><div class="eyebrow">For writers</div><h2>Your story deserves to be seen.</h2><p>Publish your work for free, choose what to share and decide who may receive your contact details.</p><div class="actions"><a class="button" href="#join">Join as a writer</a></div></div><article class="tile"><div class="symbol">✦</div><h3>Share your work</h3><p>Submit a concept, short story, screenplay, series outline or story bible.</p></article><article class="tile"><div class="symbol">◇</div><h3>Stay in control</h3><p>Pitch materials are optional. You decide whether to approve a producer's contact request.</p></article></div></section>
+<section id="producers"><div class="wrap"><div class="section-head"><div class="eyebrow">For producers and studios</div><h2>Find the story behind your next production.</h2><p>Explore public listings across genres, languages and formats. Verified producer accounts can request introductions through the Pro service.</p></div><div class="grid"><article class="tile"><div class="symbol">⌕</div><h3>Browse all stories</h3><p>Explore public previews and filter by genre, language, format and estimated budget.</p></article><article class="tile"><div class="symbol">◎</div><h3>Request an introduction</h3><p>Contact details are shared only after the writer approves the request.</p></article><article class="tile"><div class="symbol">↗</div><h3>Track collaborations</h3><p>Keep a record of introductions and collaboration progress.</p></article></div></div></section>
+<section class="band" id="join"><div class="wrap band-inner"><div><div class="eyebrow">Your next story starts here</div><h2>Let's connect stories to screens.</h2><p>StoryBridge is preparing its first platform experience. Registration and story submissions will open soon.</p></div><a class="button" href="mailto:hello@storybridge.example?subject=StoryBridge%20early%20access">Contact the team</a></div></section>
+</main>
+<footer><div class="wrap footer-inner"><span><strong>StoryBridge</strong> · Connecting Stories to Screens</span><span>© <span id="year">2026</span> StoryBridge. All rights reserved.</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
